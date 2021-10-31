@@ -3,7 +3,7 @@
 		"id" : "beefrendang",
 		"name" : "Beef Rendang",
 		"description" : "Slowly simmered with coconut milk and a mixture of lemongrass, galangal, garlic, turmeric, ginger and chilies, then left to stew for a few hours to create this dish of tender, flavorful bovine goodness.",
-		"imagesquare" : "carbonarasquare.jpg",
+		"imagesquare" : "beefrendangsquare.jpg",
 		"link" : "#"
 	},
 	{
@@ -17,7 +17,7 @@
 		"id" : "fishnchips",
 		"name" : "Fish 'n' chips",
 		"description" : "The staple of the Victorian British working class is a crunchy-outside, soft-inside dish of simple, un-adorned fundamentals.",
-		"imagesquare" : "carbonarasquare.jpg",
+		"imagesquare" : "fishnchipssquare.jpg",
 		"link" : "#"
 	},
 	{
