@@ -3,21 +3,21 @@
 		"id" : "blackberrylemonade",
 		"name" : "Blackberry Lemonade",
 		"description" : "This homemade lemonade is easy to make and gets a flavor boost from blackberries. The end result is light and refreshing which is perfect for those hot summer days.",
-		"imagesquare" : "neapolitanpizzasquare.jpg",
+		"imagesquare" : "blackberrylemonadesquare.jpg",
 		"link" : "#"
 	},
 	{
 		"id" : "caramelfrappuccino",
 		"name" : "Caramel Frappuccino",
 		"description" : "Caramel syrup meets coffee, milk and ice for a rendezvous in the blender, while whipped cream and buttery caramel sauce layer the love on top.",
-		"imagesquare" : "neapolitanpizzasquare.jpg",
+		"imagesquare" : "caramelfrappuccinosquare.jpg",
 		"link" : "#"
 	},
 	{
 		"id" : "dalgonacoffee",
 		"name" : "Dalgona Coffee",
 		"description" : "Also known as 'whipped coffee', 'frothy coffee', or 'fluffy coffee', Dalgona coffee is a whipped, frothy iced coffee drink made with instant coffee, sugar, water, and milk.",
-		"imagesquare" : "neapolitanpizzasquare.jpg",
+		"imagesquare" : "dalgonacoffeesquare.jpg",
 		"link" : "#"
 	}
 ]
