@@ -1,0 +1,23 @@
+[
+	{
+		"id" : "carbonara",
+		"name" : "Carbonara",
+		"description" : "Humble ingredients—eggs, noodles, cheese, and meat—combine to create glossy, glorious pasta carbonara. It's the no-food-in-the-house dinner of our dreams.",
+		"imagesquare" : "carbonarasquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "nycheesecake",
+		"name" : "NY Style Cheesecake",
+		"description" : "Classic New York-style cheesecake with a graham cracker crust and high sides. It is rich, dense, and light at the same time, and serves a small army.",
+		"imagesquare" : "nycheesecakesquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "neapolitanpizza",
+		"name" : "Neapolitan Pizza",
+		"description" : "The best pizza was and still is the simple Neapolitan, an invention now protected by its own trade association that insists on sea salt, high-grade wheat flour, fresh tomatoes, and hand-rolled dough, among other quality stipulations.",
+		"imagesquare" : "neapolitanpizzasquare.jpg",
+		"link" : "#"
+	}
+]

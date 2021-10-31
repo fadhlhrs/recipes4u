@@ -1,0 +1,86 @@
+[
+	{
+		"id" : "asianslaw",
+		"name" : "Asian Slaw",
+		"description" : "Like the usual slaw, but with a twist! Terrific all-rounder side salad for any Asian food, including Chinese, Thai and Vietnamese.",
+		"imagesquare" : "asianslawsquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "beefrendang",
+		"name" : "Beef Rendang",
+		"description" : "Slowly simmered with coconut milk and a mixture of lemongrass, galangal, garlic, turmeric, ginger and chilies, then left to stew for a few hours to create this dish of tender, flavorful bovine goodness.",
+		"imagesquare" : "beefrendangsquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "blackberrylemonade",
+		"name" : "Blackberry Lemonade",
+		"description" : "This homemade lemonade is easy to make and gets a flavor boost from blackberries. The end result is light and refreshing which is perfect for those hot summer days.",
+		"imagesquare" : "blackberrylemonadesquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "buffalochickenwings",
+		"name" : "Buffalo Chicken Wings",
+		"description" : "An American classic. Crispy, bite-sized wings tossed in the famous Buffalo sauce to get that kick of excitement usually served with celery sticks along with blue cheese or ranch dressing.",
+		"imagesquare" : "buffalochickenwingssquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "caramelfrappuccino",
+		"name" : "Caramel Frappuccino",
+		"description" : "Caramel syrup meets coffee, milk and ice for a rendezvous in the blender, while whipped cream and buttery caramel sauce layer the love on top.",
+		"imagesquare" : "caramelfrappuccinosquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "carbonara",
+		"name" : "Carbonara",
+		"description" : "Humble ingredients—eggs, noodles, cheese, and meat—combine to create glossy, glorious pasta carbonara. It's the no-food-in-the-house dinner of our dreams.",
+		"imagesquare" : "carbonarasquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "dalgonacoffee",
+		"name" : "Dalgona Coffee",
+		"description" : "Also known as 'whipped coffee', 'frothy coffee', or 'fluffy coffee', Dalgona coffee is a whipped, frothy iced coffee drink made with instant coffee, sugar, water, and milk.",
+		"imagesquare" : "dalgonacoffeesquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "fishnchips",
+		"name" : "Fish 'n' chips",
+		"description" : "The staple of the Victorian British working class is a crunchy-outside, soft-inside dish of simple, un-adorned fundamentals.",
+		"imagesquare" : "fishnchipssquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "neapolitanpizza",
+		"name" : "Neapolitan Pizza",
+		"description" : "The best pizza was and still is the simple Neapolitan, an invention now protected by its own trade association that insists on sea salt, high-grade wheat flour, fresh tomatoes, and hand-rolled dough, among other quality stipulations.",
+		"imagesquare" : "neapolitanpizzasquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "nycheesecake",
+		"name" : "NY Style Cheesecake",
+		"description" : "Classic New York-style cheesecake with a graham cracker crust and high sides. It is rich, dense, and light at the same time, and serves a small army.",
+		"imagesquare" : "nycheesecakesquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "pepperonigarlicknots",
+		"name" : "Pepperoni Garlic Knots",
+		"description" : "Easy to make, everyone loves them, and they are perfect for dipping into your favorite marinara or ranch dip. Super easy and definitely a good choice for any event or party.",
+		"imagesquare" : "pepperonigarlicknotssquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "vanillaicecream",
+		"name" : "Vanilla Ice Cream",
+		"description" : "You may have just gorged yourself to eruption point, but somehow there's always room for a tooth-rotting pile of ice cream with nuts, marshmallows and chocolate sauce.",
+		"imagesquare" : "icecreamsquare.jpg",
+		"link" : "#"
+	}
+]

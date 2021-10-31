@@ -1,0 +1,23 @@
+[
+	{
+		"id" : "brownie",
+		"name" : "Classic Brownie",
+		"description" : "These brownies are chocolatey, fudgy and absolutely melt in your mouth delicious. Top a warm brownie with vanilla ice cream for the best sweet treat!",
+		"imagesquare" : "nycheesecakesquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "nycheesecake",
+		"name" : "NY Style Cheesecake",
+		"description" : "Classic New York-style cheesecake with a graham cracker crust and high sides. It is rich, dense, and light at the same time, and serves a small army.",
+		"imagesquare" : "nycheesecakesquare.jpg",
+		"link" : "#"
+	},
+	{
+		"id" : "vanillaicecream",
+		"name" : "Vanilla Ice Cream",
+		"description" : "You may have just gorged yourself to eruption point, but somehow there's always room for a tooth-rotting pile of ice cream with nuts, marshmallows and chocolate sauce.",
+		"imagesquare" : "carbonarasquare.jpg",
+		"link" : "#"
+	}
+]
