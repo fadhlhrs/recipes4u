@@ -3,21 +3,21 @@
 		"id" : "buffalochickenwings",
 		"name" : "Buffalo Chicken Wings",
 		"description" : "An American classic. Crispy, bite-sized wings tossed in the famous Buffalo sauce to get that kick of excitement usually served with celery sticks along with blue cheese or ranch dressing.",
-		"imagesquare" : "carbonarasquare.jpg",
+		"imagesquare" : "buffalochickenwingssquare.jpg",
 		"link" : "#"
 	},
 	{
 		"id" : "pepperonigarlicknots",
 		"name" : "Pepperoni Garlic Knots",
 		"description" : "Easy to make, everyone loves them, and they are perfect for dipping into your favorite marinara or ranch dip. Super easy and definitely a good choice for any event or party.",
-		"imagesquare" : "neapolitanpizzasquare.jpg",
+		"imagesquare" : "pepperonigarlicknotssquare.jpg",
 		"link" : "#"
 	},
 	{
 		"id" : "asianslaw",
 		"name" : "Asian Slaw",
 		"description" : "Like the usual slaw, but with a twist! Terrific all-rounder side salad for any Asian food, including Chinese, Thai and Vietnamese.",
-		"imagesquare" : "neapolitanpizzasquare.jpg",
+		"imagesquare" : "asianslawsquare.jpg",
 		"link" : "#"
 	}
 ]
