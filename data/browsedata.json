@@ -28,6 +28,13 @@
 		"link" : "#"
 	},
 	{
+		"id" : "brownie",
+		"name" : "Classic Brownie",
+		"description" : "These brownies are chocolatey, fudgy and absolutely melt in your mouth delicious. Top a warm brownie with vanilla ice cream for the best sweet treat!",
+		"imagesquare" : "browniesquare.jpg",
+		"link" : "#"
+	},
+	{
 		"id" : "caramelfrappuccino",
 		"name" : "Caramel Frappuccino",
 		"description" : "Caramel syrup meets coffee, milk and ice for a rendezvous in the blender, while whipped cream and buttery caramel sauce layer the love on top.",
