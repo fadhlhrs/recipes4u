@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Recipes4U</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/StyleSheet.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="navbar-wrapper">
+				<div class="navbar navbar-inverse navbar-statistic-top">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#"><img src="img/recipes4u.png">Recipes4U</a>
+						</div>
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="browse.html">Browse Recipes</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li><a href="appetizers.html">Appetizers</a></li>
+											<li class="divider"></li>
+										<li><a href="maindishes.html">Main Dishes</a></li>
+											<li class="divider"></li>
+										<li><a href="desserts.html">Desserts</a></li>
+											<li class="divider"></li>
+										<li><a href="drinks.html">Drinks</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#about">About us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h2 style="text-align: center;">Our Recipes for Main Dishes</h2>
+		<div class ="list">
+
+		</div>
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 text-center" >
+						<p class="pull-right" ><a href="#">Back to top</a></p>
+						<p >&copy; 2021 Recipe4U, Inc. &middot; <a href="#">Privacy</a>&middot;<a href="#">Terms</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="jquery-3.6.0.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+	<script>
+			$.getJSON("data/maindishdata.json", function(res){
+				var items=[];
+				$.each(res, function(index, val){
+				items.push("<div id='"+index+"' style='padding-bottom:5%; margin-bottom:25px; background-color:#ffead1'>");
+					items.push("<hr>")
+					items.push("<img id='"+index+"' src='img/"+ val.imagesquare +"' class='img-circle' width='150' height='150' style='float: left; margin-right:20px; margin-left:5%; '/>")
+					items.push("<h2 id='"+index+"' href='#src' style='margin-right:5px'>"+ val.name +"</h2>")
+					items.push("<p id='"+index+"'style='margin-left:190px; margin-right:10%'>"+ val.description +"</p>")
+					items.push("<a id='"+index+"' class='btn btn-default' href='"+val.link+"' style='margin-left:5%'>Read More</a>")
+				items.push("</div>")
+			})
+			$("<div/>", {
+				"class" : "recipelist",
+				html:items.join("")
+			}).appendTo(".list")
+		})
+	</script>
+</html>
+
+
+
+
+
+
