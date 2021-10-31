@@ -23,46 +23,22 @@
 						</div>
 						<div class="navbar-collapse collapse">
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="#">Home</a></li>
-								<li><a href="#">Browse Recipes</a></li>
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="browse.html">Browse Recipes</a></li>
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										<li><a href="#">Appetizers</a></li>
+										<li><a href="appetizers.html">Appetizers</a></li>
 											<li class="divider"></li>
-										<li><a href="#">Main Dishes</a></li>
+										<li><a href="maindishes.html">Main Dishes</a></li>
 											<li class="divider"></li>
-										<li><a href="#">Desserts</a></li>
+										<li><a href="desserts.html">Desserts</a></li>
 											<li class="divider"></li>
-										<li><a href="#">Drinks</a></li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Meal Times <b class="caret"></b></a>
-									<ul class="dropdown-menu">
-										<li><a href="#">Breakfast</a></li>
-											<li class="divider"></li>
-										<li><a href="#">Lunch</a></li>
-											<li class="divider"></li>
-										<li><a href="#">Dinner</a></li>
-											<li class="divider"></li>
-										<li><a href="#">Snacks</a></li>
+										<li><a href="drinks.html">Drinks</a></li>
 									</ul>
 								</li>
 								<li>
 									<a href="#about">About us</a>
-								</li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us<b class="caret"></b></a>
-									<ul class="dropdown-menu">
-										<li><a href="#">Instagram</a></li>
-											<li class="divider"></li>
-										<li><a href="#">Twitter</a></li>
-											<li class="divider"></li>
-										<li><a href="#">Line</a></li>
-											<li class="divider"></li>
-										<li><a href="#">Whatsapp</a></li>
-									</ul>
 								</li>
 							</ul>
 						</div>
@@ -123,7 +99,7 @@
 					<img src="img/icecream.jpg" alt="Fifth Slide">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>Ice Cream</h1>
+							<h1>Vanilla Ice Cream</h1>
 							<p>You may have just gorged yourself to eruption point, but somehow there's always room for a tooth-rotting pile of ice cream with nuts, marshmallows and chocolate sauce.</p>
 							<p><a class="btn btn-large btn-primary" href="#">Read more</a></p>
 						</div>
@@ -160,7 +136,7 @@
 		<script src="js/bootstrap.min.js"></script>
 	</body>
 	<script>
-			$.getJSON("trendingdata.json", function(res){
+			$.getJSON("data/trendingdata.json", function(res){
 				var items=[];
 				$.each(res, function(index, val){
 				items.push("<div class='col-lg-4'>");
@@ -176,7 +152,7 @@
 				html:items.join("")
 			}).appendTo(".marketing .row")
 		})
-	</script>
+		</script>
 </html>
 
 
