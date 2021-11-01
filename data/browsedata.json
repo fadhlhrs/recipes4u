@@ -67,7 +67,7 @@
 		"name" : "Neapolitan Pizza",
 		"description" : "The best pizza was and still is the simple Neapolitan, an invention now protected by its own trade association that insists on sea salt, high-grade wheat flour, fresh tomatoes, and hand-rolled dough, among other quality stipulations.",
 		"imagesquare" : "neapolitanpizzasquare.jpg",
-		"link" : "#"
+		"link" : "recipes/neapolitanpizza.html"
 	},
 	{
 		"id" : "nycheesecake",
