@@ -103,9 +103,10 @@ footer {
 .content .content-header {
 	position: relative;
 	height: 300px;
+	background-color: #ffead1;
 }
 
-.content .content-header > img {;
+.content .content-header > img {
 	width: 100%;
 	height: 300px;
 	position: absolute;
@@ -125,4 +126,13 @@ footer {
 	margin-left: 15%;
 	margin-right: 15%;
 	padding-bottom: 40px;
+}
+
+.content li {
+	padding-bottom: 10px;
+}
+
+.content li img {
+	max-width: 20px;
+	margin-right: 10px;
 }
