@@ -38,7 +38,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="#about">About us</a>
+									<a href="about.html">About us</a>
 								</li>
 							</ul>
 						</div>
@@ -75,6 +75,12 @@
 					items.push("<p id='"+index+"'style='margin-left:190px; margin-right:10%'>"+ val.description +"</p>")
 					items.push("<a id='"+index+"' class='btn btn-default' href='"+val.link+"' style='margin-left:5%'>Read More</a>")
 				items.push("</div>")
+
+				localStorage.setItem("name_"+val.id, val.name );
+				localStorage.setItem("description_"+val.id, val.description );
+				localStorage.setItem("imagesquare_"+val.id, val.imagesquare );
+				localStorage.setItem("category_"+val.id, val.name );
+				localStorage.setItem("name_"+val.id, val.name );
 			})
 			$("<div/>", {
 				"class" : "recipelist",
